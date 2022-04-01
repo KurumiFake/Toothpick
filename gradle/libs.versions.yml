@@ -10,13 +10,13 @@ plugins:
   net.kyori.indra.publishing.gradle-plugin: *indra
 
 versions:
-  shadow: 7.0.0
-  configurate: 4.1.1
-  jackson: 2.12.3
+  shadow: 7.1.2
+  configurate: 4.1.2
+  jackson: 2.13.1
 
 dependencies:
   shadow:
-    group: gradle.plugin.com.github.jengelman.gradle.plugins
+    group: gradle.plugin.com.github.johnrengelman
     name: shadow
     version: { ref: shadow }
 
